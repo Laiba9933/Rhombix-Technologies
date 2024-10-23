@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        primary: ["Figtree", "serif"],
+      },
+      animation: {
+        'spin-slow': 'spin 10s linear infinite',  // Slow spinning effect
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -17,3 +23,4 @@ const config: Config = {
   plugins: [],
 };
 export default config;
+
